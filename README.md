@@ -9,7 +9,8 @@ curl --location 'http://localhost:9000/shorturls/' \
     
 }'
 Result
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c106086-837c-4792-b412-7836b521b60e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebe7625b-ae83-474e-9450-456379723f78" />
+
 
 
 
