@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e13f273d-a452-4c59-9d3d-f5d7341700b8" />
+
 To create a Short url
 
 curl --location 'http://localhost:9000/shorturls/' \
