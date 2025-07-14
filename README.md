@@ -1,4 +1,4 @@
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e13f273d-a452-4c59-9d3d-f5d7341700b8" />
 To create a Short url
 
 curl --location 'http://localhost:9000/shorturls/' \
@@ -9,44 +9,16 @@ curl --location 'http://localhost:9000/shorturls/' \
     
 }'
 Result
-{
-    "shortLink": "http://localhost:9000/5FWmLN",
-    "expiry": "2025-07-14T06:44:36.385Z"
-}
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c106086-837c-4792-b412-7836b521b60e" />
+
 
 
 To get the stat
 
-curl --location 'http://localhost:9000/shorturls/XpEIvG'
+curl --location 'http://localhost:9000/shorturls/hyGVFY'
 Result
-{
-    "shortLink": "http://localhost:9000/XpEIvG",
-    "expiry": "2025-07-14T06:26:19.607Z",
-    "clicks": 2,
-    "originalUrl": {
-        "protocol": "https:",
-        "hostname": "cicd.datanimbus.io",
-        "pathname": "/cicd/",
-        "search": "",
-        "hash": "",
-        "href": "https://cicd.datanimbus.io/cicd/"
-    },
-    "clickData": [
-        {
-            "timestamp": "2025-07-14T05:59:50.095Z",
-            "source": "Unknown",
-            "location": "::1",
-            "_id": "68749cd67c951a58e65a8703"
-        },
-        {
-            "timestamp": "2025-07-14T06:00:26.945Z",
-            "source": "Unknown",
-            "location": "::1",
-            "_id": "68749cfa7c951a58e65a8709"
-        }
-        ]
-}
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5e6803a4-059b-422c-bf25-3e58da85184d" />
 
 
-Api to get to run the short URL
-curl --location 'http://localhost:9000/XpEIvG'
+
+
