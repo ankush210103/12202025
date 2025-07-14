@@ -1,0 +1,20 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "A URl Shortner by Ankush Kumar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "log4js": "^6.9.1",
+    "mongoose": "^8.16.3"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}

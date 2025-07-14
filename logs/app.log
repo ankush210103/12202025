@@ -1,0 +1,429 @@
+[2025-07-14T11:06:09.148] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:06:50.950] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:06:54.399] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:06:54.404] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:09:31.723] [INFO] [url-shortner:0.1] - POST 400 /shorturls ::1 22 ms
+[2025-07-14T11:09:45.282] [INFO] [url-shortner:0.1] - POST 400 /shorturls ::1 5 ms
+[2025-07-14T11:09:48.412] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 3 ms
+[2025-07-14T11:10:42.204] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:10:46.314] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:10:46.378] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:13:06.732] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:13:10.314] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:13:10.364] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:13:45.913] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:13:46.600] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:13:46.657] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:13:55.952] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://calendar.google.com/calendar/u/0/r?pli=1',
+    origin: 'https://calendar.google.com',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'calendar.google.com',
+    hostname: 'calendar.google.com',
+    port: '',
+    pathname: '/calendar/u/0/r',
+    search: '?pli=1',
+    searchParams: URLSearchParams { 'pli' => '1' },
+    hash: ''
+  },
+  validity: 32,
+  shortcode: 'Apple'
+}
+[2025-07-14T11:14:12.485] [INFO] [url-shortner:0.1] - POST 201 /shorturls/ ::1 20827 ms
+[2025-07-14T11:14:52.272] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:14:53.334] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:14:53.388] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:14:55.083] [INFO] [url-shortner:0.1] - GET 404 /Apple ::1 2 ms
+[2025-07-14T11:15:19.861] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'Apple' }
+[2025-07-14T11:15:19.903] [INFO] [url-shortner:0.1] - GET 200 /shorturls/Apple ::1 42 ms
+[2025-07-14T11:18:01.767] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:18:02.881] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:18:02.944] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:18:05.377] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'Apple' }
+[2025-07-14T11:18:05.413] [INFO] [url-shortner:0.1] - GET 200 /shorturls/Apple ::1 36 ms
+[2025-07-14T11:18:10.384] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'Apple' }
+[2025-07-14T11:18:12.865] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/Apple',
+  expiry: '2025-07-14T06:15:56.259Z',
+  clicks: 0,
+  originalUrl: {},
+  clickData: []
+}
+[2025-07-14T11:18:25.999] [INFO] [url-shortner:0.1] - GET 302 /Apple ::1 15616 ms
+[2025-07-14T11:18:26.010] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'undefined' }
+[2025-07-14T11:18:26.043] [INFO] [url-shortner:0.1] - GET 404 /undefined ::1 33 ms
+[2025-07-14T11:21:17.904] [INFO] [url-shortner:0.1] - POST 500 /shorturls/ ::1 19 ms
+[2025-07-14T11:21:33.009] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:21:34.115] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 6194 ms
+[2025-07-14T11:21:47.077] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:21:48.148] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:21:48.198] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:21:51.795] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:21:51.802] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 1394 ms
+[2025-07-14T11:22:35.807] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:22:35.809] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 5991 ms
+[2025-07-14T11:22:45.125] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:22:48.725] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 8086 ms
+[2025-07-14T11:22:56.342] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:22:57.078] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:22:57.136] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:23:51.056] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:23:52.101] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:23:52.165] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:24:00.642] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:24:01.537] [INFO] [URLHELPER] - Generated shortcode { shortcode: 'Nq39tO' }
+[2025-07-14T11:24:01.958] [INFO] [url-shortner:0.1] - POST 400 /shorturls/ ::1 3501 ms
+[2025-07-14T11:24:13.100] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:24:13.867] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:24:13.916] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:24:19.298] [INFO] [URLSERVICE] - Shortening URL {
+  url: URL {
+    href: 'https://cicd.datanimbus.io/cicd/',
+    origin: 'https://cicd.datanimbus.io',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'cicd.datanimbus.io',
+    hostname: 'cicd.datanimbus.io',
+    port: '',
+    pathname: '/cicd/',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  validity: 32,
+  shortcode: undefined
+}
+[2025-07-14T11:24:19.836] [INFO] [URLHELPER] - Generated shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:24:27.792] [INFO] [url-shortner:0.1] - POST 201 /shorturls/ ::1 10658 ms
+[2025-07-14T11:24:38.914] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:24:40.562] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:24:43.948] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 5035 ms
+[2025-07-14T11:24:51.574] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:24:54.492] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:24:54.496] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 2924 ms
+[2025-07-14T11:24:57.210] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:24:57.268] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:24:57.270] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 60 ms
+[2025-07-14T11:25:00.240] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:25:00.274] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:25:00.274] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 34 ms
+[2025-07-14T11:25:26.193] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:25:26.229] [INFO] [url-shortner:0.1] - GET 200 /shorturls/XpEIvG ::1 36 ms
+[2025-07-14T11:28:24.451] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:28:25.486] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:28:25.539] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:28:39.860] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:28:39.900] [INFO] [url-shortner:0.1] - GET 200 /shorturls/XpEIvG ::1 40 ms
+[2025-07-14T11:28:39.923] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'favicon.ico' }
+[2025-07-14T11:28:39.953] [INFO] [url-shortner:0.1] - GET 404 /favicon.ico ::1 30 ms
+[2025-07-14T11:28:44.105] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:28:44.141] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:28:44.144] [INFO] [url-shortner:0.1] - GET 404 /XpEIvG ::1 40 ms
+[2025-07-14T11:29:00.373] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:29:01.030] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:29:01.078] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:29:04.193] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:29:04.250] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:29:04.255] [INFO] [url-shortner:0.1] - GET 404 /XpEIvG ::1 61 ms
+[2025-07-14T11:29:15.240] [INFO] [url-shortner:0.1] - GET 404 /.well-known/appspecific/com.chrome.devtools.json ::1 7 ms
+[2025-07-14T11:29:15.568] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:29:15.609] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:29:15.611] [INFO] [url-shortner:0.1] - GET 404 /XpEIvG ::1 43 ms
+[2025-07-14T11:29:15.620] [INFO] [url-shortner:0.1] - GET 404 /.well-known/appspecific/com.chrome.devtools.json ::1 1 ms
+[2025-07-14T11:29:34.244] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:29:34.961] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:29:35.003] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:29:36.677] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:29:36.720] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:29:36.723] [INFO] [url-shortner:0.1] - GET 404 /XpEIvG ::1 45 ms
+[2025-07-14T11:29:36.731] [INFO] [url-shortner:0.1] - GET 404 /.well-known/appspecific/com.chrome.devtools.json ::1 3 ms
+[2025-07-14T11:29:47.581] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:29:48.213] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:29:48.260] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:29:50.026] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:29:50.063] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 0,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: []
+}
+[2025-07-14T11:29:50.064] [INFO] [URLSERVICE] - Updating click data { shortcode: 'XpEIvG', source: 'Unknown', location: '::1' }
+[2025-07-14T11:29:50.138] [INFO] [URLSERVICE] - Click data updated {
+  shortcode: 'XpEIvG',
+  clickData: [
+    {
+      timestamp: 2025-07-14T05:59:50.095Z,
+      source: 'Unknown',
+      location: '::1',
+      _id: new ObjectId('68749cd67c951a58e65a8703')
+    }
+  ]
+}
+[2025-07-14T11:29:50.143] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 117 ms
+[2025-07-14T11:30:26.875] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:30:26.912] [INFO] [url-shortner:0.1] - {
+  shortLink: 'http://localhost:9000/XpEIvG',
+  expiry: '2025-07-14T06:26:19.607Z',
+  clicks: 1,
+  originalUrl: {
+    protocol: 'https:',
+    hostname: 'cicd.datanimbus.io',
+    pathname: '/cicd/',
+    search: '',
+    hash: '',
+    href: 'https://cicd.datanimbus.io/cicd/'
+  },
+  clickData: [
+    {
+      timestamp: 2025-07-14T05:59:50.095Z,
+      source: 'Unknown',
+      location: '::1',
+      _id: new ObjectId('68749cd67c951a58e65a8703')
+    }
+  ]
+}
+[2025-07-14T11:30:26.913] [INFO] [URLSERVICE] - Updating click data { shortcode: 'XpEIvG', source: 'Unknown', location: '::1' }
+[2025-07-14T11:30:26.985] [INFO] [URLSERVICE] - Click data updated {
+  shortcode: 'XpEIvG',
+  clickData: [
+    {
+      timestamp: 2025-07-14T05:59:50.095Z,
+      source: 'Unknown',
+      location: '::1',
+      _id: new ObjectId('68749cd67c951a58e65a8703')
+    },
+    {
+      timestamp: 2025-07-14T06:00:26.945Z,
+      source: 'Unknown',
+      location: '::1',
+      _id: new ObjectId('68749cfa7c951a58e65a8709')
+    }
+  ]
+}
+[2025-07-14T11:30:26.988] [INFO] [url-shortner:0.1] - GET 302 /XpEIvG ::1 114 ms
+[2025-07-14T11:30:31.540] [INFO] [URLSERVICE] - Retrieving stats for shortcode { shortcode: 'XpEIvG' }
+[2025-07-14T11:30:31.580] [INFO] [url-shortner:0.1] - GET 200 /shorturls/XpEIvG ::1 41 ms
+[2025-07-14T11:37:13.607] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:37:15.932] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:37:16.107] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:38:17.671] [INFO] [url-shortner:0.1] - POST 500 /shorturls/ ::1 40 ms
+[2025-07-14T11:40:22.379] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:40:23.338] [INFO] [DB] - Connected to MongoDB
+[2025-07-14T11:40:23.398] [INFO] [url-shortner:0.1] - Server running on port 9000
+[2025-07-14T11:40:29.107] [ERROR] [ERRORHANDLER] - SyntaxError: Unexpected token ' ', ..."validity": 32
+    
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\url-shortner\node_modules\body-parser\lib\types\json.js:77:19)
+    at D:\url-shortner\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (D:\url-shortner\node_modules\raw-body\index.js:238:16)
+    at done (D:\url-shortner\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\url-shortner\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-07-14T11:40:29.111] [INFO] [url-shortner:0.1] - POST 500 /shorturls/ ::1 13 ms
+[2025-07-14T11:40:49.232] [INFO] [url-shortner:0.1] - Logger Initialized
+[2025-07-14T11:40:50.232] [INFO] [DB] - Connected to MongoDB
